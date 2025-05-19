@@ -190,8 +190,8 @@ db 'E'
 |`(unsigned short)0`|`钻石` 的 `物品数据值` 为 `0`|`\x00\x00`|`0` 在 `16` 进制下，其 `大端字节序` 表达为 `\x00\x00`<br/>`unsigned short` 是 `无符号短整型` ，因此有 `2` 个字节|
 |`(unsigned char)2`|将 `钻石` 放在第 `3` 个槽位|`\x02`|`2` 在 `16` 进制下，其 `大端字节序` 表达为 `\x02`<br/>`unsigned char` 是 `无符号字节型` ，因此有 `1` 个字节<br/>第一个槽位一般使用 `0` ，第二个槽位则为 `1` ，第三个槽位则为 `2` ，以此类推。|
 
-您可以在 [PhoenixBuilder/resources](https://github.com/bouldev/PhoenixBuilder/tree/main/resources) 查看 `运行时ID方块池` 。<br>
-本样例采用的是 [PhoenixBuilder/resources/blockRuntimeIDs/netease/runtimeIds_117.json](https://github.com/bouldev/PhoenixBuilder/blob/main/resources/blockRuntimeIDs/netease/runtimeIds_117.json) 所述之版本。
+您可以在 [PhoenixBuilder/resources](../resources/blockRuntimeIDs) 查看 `运行时ID方块池` 。<br>
+本样例采用的是 [PhoenixBuilder/resources/blockRuntimeIDs/netease/runtimeIds_117.json](../resources/blockRuntimeIDs/netease/runtimeIds_117.json) 所述之版本。
 
 
 
